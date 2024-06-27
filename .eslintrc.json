@@ -1,0 +1,14 @@
+{
+  "extends": ["airbnb-base", "airbnb-typescript", "prettier"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["@typescript-eslint", "prettier"],
+  "rules": {
+    "@typescript-eslint/dot-notation": "error",
+    "react/jsx-filename-extension": "off",
+    "prettier/prettier": "error",
+    "import/no-cycle": "off"
+  }
+}

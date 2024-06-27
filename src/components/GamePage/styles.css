@@ -1,0 +1,65 @@
+.game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 99vh;
+  width: 768px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 2px solid rgb(213, 213, 213);
+  border-radius: 10px;
+}
+
+.source-block,
+.result-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 95vh;
+  margin: 20px;
+  height: 70px;
+  transition: all 0.5s ease;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.word-card {
+  padding: 7px;
+  font-size: 13px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.5s ease;
+}
+
+.word-card:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.word-card:active {
+  transform: translateY(-10px);
+}
+
+.control-panel {
+  display: flex;
+  gap: 40px;
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+
+.button-autocomplete {
+  background-color: #ff6347; /* Вы можете выбрать любой цвет */
+}
+
+.button-autocomplete:hover {
+  background-color: #ee2200; /* Вы можете выбрать любой цвет */
+}
