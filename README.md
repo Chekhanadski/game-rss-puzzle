@@ -1,6 +1,6 @@
 *This project was initially developed in a private repository as part of the Rolling Scopes School JavaScript course. After the course completion, it was transferred to my personal repository.*
 
-# RSS Puzzle Application
+# Game "RSS Puzzle"
 
 ## View the Project
 You can view the deployment of RSS Puzzle Application here: [RSS Puzzle](https://rolling-scopes-school.github.io/chekhanadski-JSFE2023Q4/RSS-Puzzle/#/login).
